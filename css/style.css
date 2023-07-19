@@ -77,6 +77,18 @@
     padding: 0 4rem;
 }
 
+#logo{
+    max-width: 100%;
+     height: auto;
+}
+#logo{
+    /* Default styles */
+      
+        /* Styles for smaller screens */
+        @media (max-width: 768px) {
+          /* Custom styles for smaller screens */
+        }
+}
 .nav-bar {
     position: relative;
     padding: 0 4.75rem;
