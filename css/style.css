@@ -76,19 +76,17 @@
     height: 75px;
     padding: 0 4rem;
 }
-
-#logo{
+#logo {
     max-width: 100%;
-     height: auto;
-}
-#logo{
-    /* Default styles */
-      
-        /* Styles for smaller screens */
-        @media (max-width: 768px) {
-          /* Custom styles for smaller screens */
-        }
-}
+    height: auto;
+    display: block; /* Ensures proper alignment */
+    margin: 0 auto; /* Center the logo horizontally */
+  }
+@media (max-width: 768px) {
+    #logo {
+      max-width: 80%; /* Adjust the width for smaller screens */
+    }
+  }
 .nav-bar {
     position: relative;
     padding: 0 4.75rem;
