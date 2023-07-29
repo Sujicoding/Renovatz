@@ -87,6 +87,11 @@
       max-width: 80%; /* Adjust the width for smaller screens */
     }
   }
+  @media (min-width: 768px) {
+    provide {
+      width: 50%;
+    }
+  }
 .nav-bar {
     position: relative;
     padding: 0 4.75rem;
